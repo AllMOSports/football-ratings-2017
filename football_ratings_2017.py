@@ -98,6 +98,7 @@ def build_id_to_classname(team_to_class, schools_csv=SCHOOLS_CSV):
         "375": "Neosho with Neosho Christian",
         "483": "Van-Far with Community",
         "549": "St. Mary's South Side",
+        "509": "Bishop DuBourg with Hancock",
     }
  
     df = pd.read_csv(schools_csv)
