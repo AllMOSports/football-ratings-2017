@@ -41,8 +41,6 @@ MANUAL_GAMES = [
 # Team order does not matter — both directions are checked.
  
 EXCLUDED_GAMES = [
-    ("2017-10-26", "Cardinal Ritter", "Confluence Prep Academy Charter"),
-    ("2017-10-26", "Maryville", "Northeast (Kansas City)"),
 ]
  
 HEADERS = {
