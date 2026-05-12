@@ -1,5 +1,5 @@
 {
-  "last_updated": "May 12, 2026 at 01:49 AM",
+  "last_updated": "May 12, 2026 at 01:54 AM",
   "league_average": 26.92,
   "classification": 1,
   "teams": [
@@ -137,17 +137,6 @@
     },
     {
       "ovr_rank": 13,
-      "school": "Portageville",
-      "classification": 1,
-      "district": 1,
-      "ovr_rating": -11.07,
-      "off_rating": 4.03,
-      "off_rank": 6,
-      "def_rating": -15.1,
-      "def_rank": 31
-    },
-    {
-      "ovr_rank": 14,
       "school": "Westran",
       "classification": 1,
       "district": 6,
@@ -156,6 +145,17 @@
       "off_rank": 15,
       "def_rating": -3.05,
       "def_rank": 11
+    },
+    {
+      "ovr_rank": 14,
+      "school": "Portageville",
+      "classification": 1,
+      "district": 1,
+      "ovr_rating": -11.07,
+      "off_rating": 4.03,
+      "off_rank": 6,
+      "def_rating": -15.1,
+      "def_rank": 31
     },
     {
       "ovr_rank": 15,
