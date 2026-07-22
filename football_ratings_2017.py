@@ -37,11 +37,16 @@ MOV_CAP               = 28    # max points of "error" any single game can contri
 # Team names must match exactly the names in classifications.json.
  
 MANUAL_GAMES = [
-    # NOTE: These are manually-added 2011 games that don't appear on the
-    # MSHSAA scoreboard. The list has been cleared for 2017 since none of
-    # the 2011 entries apply to this season. Re-populate with any 2017
-    # games missing from the scraped scoreboard, in the same format:
-    # ("YYYY-MM-DD", "Team 1 Name", score1, "Team 2 Name", score2)
+    # Added from 2017_Missing_Games.xlsx (games missing from MSHSAA scoreboard).
+    # TODO: the spreadsheet had no date column -- replace "2017-XX-XX" below
+    # with each game's actual date once you have it. Dates don't affect the
+    # rating math (calculate_ratings() ignores them entirely), but they do
+    # feed the scoreboard CSV and the dedup key, so they should be corrected
+    # before treating football_scoreboard_2017.csv as authoritative.
+    ("2017-08-01", "Ava", 39, "Liberty (Mountain View)", 22),
+    ("2017-08-01", "Kirkwood", 35, "Webster Groves", 7),
+    ("2017-08-01", "Liberty (Mountain View)", 55, "Cabool", 8),
+    ("2017-08-01", "Liberty (Mountain View)", 42, "Mountain Grove", 14),
 ]
  
 HEADERS = {
